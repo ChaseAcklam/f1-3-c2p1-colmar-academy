@@ -1,0 +1,552 @@
+html {
+/*-- width: 1600px; --*/
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.rowstyle {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+/*-- Header Css--------------------------------------------------------------*/
+
+.header {
+  width: 100%;
+  background-color: white;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  letter-spacing: .01rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.navlink a {
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+  margin: 0px 8px;
+}
+/*-- Body Css----------------------------------------------------------------*/
+
+.bodysection {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.bodysectiontwo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.imgsection img{
+  width: 100%;
+}
+
+.tabmobile {
+  display: none;
+}
+
+
+.mainpara p {
+  width: 100%;
+  line-height: 1.5;
+  margin-top: 24px;
+  font-weight: 300;
+  letter-spacing: .06rem;
+}
+
+.Learn {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.Learn h4 {
+  width: 80%;
+  font-size: 1.5rem;
+}
+
+.startbtn {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51, 51, 51);
+  width: 70%;
+  height:3.5rem;
+}
+
+.startbtn a{
+
+  font-size: 1.3em;
+  color: white;
+  padding: 8px 0px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.Learn h4 {
+  margin-top: 16px;
+  margin-bottom: 16px
+}
+
+.infotabs {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 40%;
+}
+
+.block_section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 22rem;
+  margin: 32px 16px;
+  line-height: 1.3;
+  font-size: 18px;
+}
+
+.block h4 {
+  font-size: 1.7rem;
+}
+
+.block img {
+  width: 22rem;
+}
+
+.text {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 24px;
+}
+
+.whiteblock {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 13rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.mobile-tabs {
+  display: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 40px;
+}
+
+.tab {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding: 16px;
+}
+
+.tab a {
+  color: rgba(0, 0, 255, 0.7);
+  text-decoration: none;
+}
+
+.tab img{
+  margin-right: 16px;
+  margin-left: 0px;
+  width: 35%;
+}
+
+.tabmobile {
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding: 16px;
+}
+
+.tabmobile a {
+  color: rgba(0, 0, 255, 0.7);
+  text-decoration: none;
+}
+
+.tabmobile img{
+  margin-right: 16px;
+  margin-left: 0px;
+  width: 35%;
+}
+
+.lefthand {
+  width: 60%;
+  padding-left: 24px;
+  padding-right: 8px;
+}
+
+.lefthand img {
+  width: 100%;
+}
+
+.leftimg img {
+  width: 100%;
+}
+
+.leftimg video {
+  width: 100%;
+}
+
+.keep-practice {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.keep-practice h2 {
+ margin-bottom: 2rem;
+ font-size: 2rem
+}
+
+.keep-practice p {
+  letter-spacing: .05rem;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.signed {
+  margin-top: 3rem;
+}
+
+.titlebar {
+  text-align: center;
+  padding: 32px 0px;
+}
+
+.footer {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  border-top: 1px solid lightgrey;
+  width: 98%;
+}
+
+.feet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.leftfoot {
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightfoot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 24px;
+}
+
+.footlink {
+  padding: 0px 4px;
+}
+
+.mobileheader {
+  display: none;
+  height: 180px;
+  width: 100%;
+  background-color: white;
+}
+
+.mobileheader img {
+  height: 80px;
+}
+
+/*-- Span CSS ---------------------------------------------------------------*/
+
+.grey {
+  color: grey;
+}
+
+.spacesixteen {
+  margin-left: 16px;
+}
+
+.fortyperwidth {
+  width: 40%;
+  margin-left: 16px;
+}
+
+.maxwidth{
+  width: 100%;
+
+}
+
+.widthsixty {
+  width: 60%;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.top-none {
+  padding-top: 0px;
+  margin-right: 16px;
+  padding-bottom: 16px;
+  margin-left: 0px;
+}
+
+.align-top {
+  align-items: flex-start;
+}
+
+.lighter {
+  font-weight: 300;
+}
+
+.backwhite {
+  background-color: white;
+}
+
+.backlightgrey {
+  background-color: lightgrey;
+}
+
+#noback {
+  background-color: white;
+}
+/*-- Media Querys ------------------------------*/
+@media only screen and (max-width: 414px){
+  .header {
+    display: none;
+  }
+
+  .mobileheader {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 64px;
+  }
+
+  .mobileheader img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .rowstyle {
+    flex-direction: column;
+  }
+
+  .lefthand {
+    width: 100%;
+  }
+
+  .Learn {
+    width: 100%;
+  }
+
+  .spacesixteen {
+    margin: 0;
+  }
+
+  .mobile-tabs {
+    display: flex;
+    background-color: lightgrey;
+    margin: 10px 16px;
+    width: 350px;
+    height: 50px;
+    font-size: 1.6rem;
+    padding: 16px;
+    justify-content: flex-start;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .block_section {
+    display: none;
+  }
+
+  .keep-practice {
+    display:none;
+  }
+
+  .fortyperwidth {
+    margin: 0;
+    padding: 0;
+  }
+
+  .tab {
+    flex-direction: column;
+  }
+
+  .tab img {
+    width: 92%;
+    margin-left: 16px;
+    margin-top: 16px;
+    height: 200px;
+  }
+
+  .top-none {
+    padding: 0;
+    margin: 0;
+  }
+
+  .tabmobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tabmobile img {
+    width: 92%;
+    margin-left: 16px;
+    margin-top: 16px;
+    height: 200px;
+  }
+
+  .tabmobilecaption {
+    width: 100%;
+    margin-left: 32px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .tabmobilecaption h4 {
+    margin: 0!important;
+    padding: 0!important;
+  }
+
+  .lefthand {
+    margin:0;
+    padding: 0;
+  }
+
+  #lefttwo{
+    margin:0;
+    padding: 0;
+    display: none;
+  }
+
+  .bodysection {
+    padding: 0;
+    margin: 0;
+  }
+
+  .leftimg img {
+    height: 250px;
+  }
+
+  .Learn h1 {
+    margin-top: 32px;
+    margin-left: 16px;
+    font-size: 2.5rem;
+  }
+
+  .Learn h4 {
+    margin-left: 16px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
+
+  .startbtn {
+    width: 92%;
+    margin-left: 16px;
+    margin-bottom: 32px;
+  }
+
+  #noback {
+    background-color: rgb(255, 250, 250);
+    padding-bottom: 32px;
+  }
+
+  #nomobile {
+    display: none;
+  }
+
+  .rightfoot {
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px){
+  .startbtn {
+    width: 90%;
+    margin-left: 16px;
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .startbtn {
+    width: 89%;
+    margin-left: 16px;
+    margin-bottom: 32px;
+  }
+}
